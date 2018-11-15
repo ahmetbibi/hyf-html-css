@@ -1,130 +1,205 @@
-*{ 
-    margin:0; 
-    padding:0;
-  }
-  body{
-    background:#111111;
-    font-family:Caveat;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 1;  
+}
+#headings{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  padding: 10px 0;  
+}
+#headings h1, #headings p{
+  text-align: center;
   
-  h1{
-    font-family: 'Butcherman';
-    text-align:center;
-    font-size:70px;
-    margin:0; 
-    padding:20px;
-  }
-  #main {
-    width:1004px;
-    margin: auto;
-    background:white;
-    padding-left:10px;
-    padding-right:10px;
-  }
-  #nav {
-    height:auto;  
-  }
-  #home-photo{
-    width:100%;
-    opacity:0.8;
-  }
-  #home-all{    
-    position:relative;
-  }
-  #aside{
-    position:absolute;
-    width:40%;
-    right:10px;
-    top:20px;
-    color:white;
-    border:2px solid;
-    border-radius:25px;
-    background:rgba(168, 21, 21, 0.7);  
-  }
+}
+#menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 65%;
+}
+#menu div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 120px;
+  margin: 10px;
+}
+#menu div a{  
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  padding-top: 25px;
+  font-weight: bold;
+}
+#home{
+  text-align: center;
+  position: relative;
+  height: 700px;
+}
+#home img{
+  width: 100%;
+  height: 700px;
+  opacity: 0.4;
+}
+#home p{
+  position: absolute;
+  top: 200px;
+  left: 190px;
+  font-size: 70px;
+  color:#010914;
+  font-weight: bold;
+  max-width: 1100px;
+}
+#about{
+  margin-top:0px;
+  display: flex;
+  flex-direction: row;  
+}
+#about article{
+  width: 50%;
+  background-color:#edeff5;
   
-  #aside p{
-    color:white;
-    padding:8px;
+}
+#about article p{
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 50%;
+  text-align:center;
   }
+#about aside{
+  width: 50%;
+  height: auto;
+}
+#about aside img{
+  max-width: 100%;
+}
+
+#experiences {
+  background-color:white;
+}
+#works{
+ 
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-bottom: 10px;
+ 
+}
+#now{
+  width: 50%;
+  margin: 0 0 0 150px;
+}
+#now ul{
+  padding: 0 0 0 40px;
+}
+#past{
+  width: 50%;
+  margin: 0 0 0 150px;
+}
+#past ul{
+  padding: 0 0 0 40px;
+}
+#education{
+  background-color:#BBC8DD; 
+}
+#schools{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin: 0 0 10px 150px;
+}
+
+.edu{
+  max-width: 300px;
+  padding-right: 50px;
+  margin-right: 90px;
+}
+
+#skills{
   
-  ul {
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;  
-  }
-  
-  li{  
-    float:left;
-    
-  }
-  li a {
-    text-decoration:none;
-    text-align:center;
-    background-color:#a81515;
-    color:white;
-    padding:20px;
-    display:block;
-    font-weight:bold;
-    font-size:20px;
-    width:207px;
-    height:auto;
-    border:2px solid #a81515;
-  }
-  li a:hover{
-    background-color:white;
-    color:#a81515;
-    border:2px solid #a81515;
-    
-  }
-  #band-photo{
-    float:left;
-    width:400px;
-    padding-right:20px;
-    padding-top:11px;
-    padding-left:10px;
-  }
-  .tour-photos{
-    width:330px;
-    float:left;
-    border:1px solid white;
-  }
-  .album-photos{
-    width:246px;
-    float:left;
-    border:1px solid white;
-  }
-  .headings{
-    width:150px;
-    float:left;
-    padding-bottom:20px;
-    padding-left:10px;
-  }
-  .up{
-    float:right;
-    width:14px;
-    padding-top:2px;
-  }
-  .clear{
-    clear:both;
-  }
-  .paragraph{
-    line-height:1.5em; 
-    font-family:Caveat;
-    font-size:25px;
-    padding-left:10px;
-    padding-bottom:15px;
-  }
-  .gap-bottom{
-    margin-bottom:30px;
-  }
-  #footer{
-    width:auto;
-    background:#a81515;
-    height:50px;
-    text-align:center;
-  }
-  #footer p{
-    font-weight:bold;
-    padding-top:10px
-  }
+}
+#skills article{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 900px;
+}
+#part1, #part2{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+#hobbies{
+ margin-bottom: 40px;
+}
+#hobbies section{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 50px;
+  margin-left: 150px;
+}
+#hobbies section p{
+  padding-right: 80px;
+  font-weight: bold;
+}
+
+.main-headings{
+  font-size: 50px;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom:30px;
+}
+p, li{
+ font-size: 20px;
+}
+.table{
+  width: 300px;
+  height: 300px;
+  padding: 65px;
+  text-align: center;
+}
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #2E4975;
+}
+footer p{
+  padding-top: 25px;
+  font-weight: bold;
+}
+h3{
+  padding: 10px 0;
+}
+.white{
+  background: #EDEFF5;
+}
+.black{
+  background: #BBC8DD;
+}
