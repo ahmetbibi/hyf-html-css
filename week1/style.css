@@ -80,8 +80,7 @@ header{
   display: flex;
   flex-direction: row;  
 }
-#about article{
-  padding-top: 30px;
+#about article{  
   width: 50%;
   background-color:#edeff5;
   
