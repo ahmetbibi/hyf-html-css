@@ -79,8 +79,9 @@ header{
   margin-top:0px;
   display: flex;
   flex-direction: row;  
+  max-height:700px; 
 }
-#about article{  
+#about article{
   width: 50%;
   background-color:#edeff5;
   
@@ -96,7 +97,7 @@ header{
   height: auto;
 }
 #about aside img{
-  max-width: 100%;
+  width: 100%;
 }
 
 #experiences {
@@ -173,7 +174,7 @@ header{
 .main-headings{
   font-size: 50px;
   margin-left: 150px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom:30px;
 }
 p, li{
