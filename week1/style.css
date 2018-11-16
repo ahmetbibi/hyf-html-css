@@ -108,7 +108,7 @@ header{
   display: flex;
   flex-direction: row;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
  
 }
 #now{
@@ -132,7 +132,7 @@ header{
   display: flex;
   flex-direction: row;
   text-align: left;
-  margin: 0 0 10px 150px;
+  margin: 0 0 30px 150px;
 }
 
 .edu{
