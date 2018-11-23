@@ -10,7 +10,7 @@ body {
     padding: 0;
     text-align: justify;
     background: linear-gradient(to bottom, #daf3f2 0%, #83d2ec 100%);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 section {
     width: 100%;
