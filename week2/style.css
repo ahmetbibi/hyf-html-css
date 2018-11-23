@@ -1,0 +1,459 @@
+* {
+    
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background: linear-gradient(to bottom, #daf3f2 0%, #83d2ec 100%);
+    font-family: 'Courier New', Courier, monospace;
+}
+section {
+    width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+@keyframes mykeyframe {
+    0%   {background-color: rgb(224, 176, 176);}
+    25%  {background-color: rgb(189, 189, 124);}
+    50%  {background-color: rgb(137, 137, 189);}
+    100% {background-color: rgb(125, 179, 125);}
+}
+
+
+
+
+/*
+
+#grid-floats {
+    border: 1px solid red;
+    width: 100%;
+    overflow: hidden;    
+}
+#grid-floats .grid-item{
+    display: grid;
+    border: 1px dotted green;
+    width: 19%;
+    float: left;
+    margin: 2%;
+    height: 400px;
+}
+#grid-floats .grid-item:nth-child(1){
+    display: grid;
+    border: 1px dotted green;
+    width: 42%;
+    float: left;
+    margin: 2%;    
+    height: 400px;
+}
+
+#grid-floats img {
+        
+    margin: auto;
+    width: 70%;
+}
+li:nth-child(1) img {
+    width: 100%;
+}
+
+li:nth-child(1) {
+    clear: both;
+    border: 2px solid blue;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 5px 10px 5px;  
+}
+
+h1 {
+    font-size: 4rem;
+    
+}
+h2 {
+    font-size: 3rem;
+    
+}
+h3 {
+    font-size: 1.75rem;
+    
+}
+p {
+    font-size: 0.9rem;
+    padding: 0 10px 5px 10px;
+}
+
+section:nth-child(2) {
+    clear: both;
+}
+
+
+
+#grid-flex{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#grid-flex .grid-item{
+    margin: 2%;
+    height: auto;
+    border: 1px dotted green;
+    width: 19%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#grid-flex .grid-item:nth-child(1) {
+    width: 42%;
+}
+
+
+#grid-flex .grid-item img {
+    height: auto;
+    width: 70%;
+}
+
+*/
+
+@media only screen and (max-width: 480px) {
+    #grid-floats {
+        width: 100%;
+        overflow: hidden;          
+    }
+    #grid-floats .grid-item{
+        display: grid;
+        border: 1px solid rgb(2, 17, 65);
+        width: 46%;
+        float: left;
+        margin: 2%;
+        height: 550px;
+    }
+    #grid-floats .grid-item:nth-child(1){
+        display: grid;
+        border: 1px solid rgb(2, 17, 65);
+        width: 96%;
+        float: left;
+        margin: 2%;
+        animation-name: mykeyframe;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    
+    #grid-floats img {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 5px;
+    }
+    
+    
+    /*
+    li:nth-child(1) img {
+        width: 100%;
+        margin: auto;
+    }
+
+    li:nth-child(1) {
+        clear: both;
+        border: 2px solid blue;
+        float: left;
+        width: 98%;
+        clear: both;
+    }
+    */
+    
+    #grid-flex{        
+        width: 100%;
+    }
+    
+    h1, h2, h3 {
+        text-align: center;
+        font-weight: bold; 
+        padding-top: 10px;  
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.75em;
+        padding: 5px 10px;
+    }
+    
+    
+    section:nth-child(2) {
+        clear: both;
+    }
+
+
+
+    #grid-flex{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    #grid-flex .grid-item{
+        margin: 2%;
+        height: auto;
+        border: 1px solid rgb(2, 17, 65);
+        width: 46%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #grid-flex .grid-item:nth-child(1) {
+        width: 100%;
+        animation-name: mykeyframe;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    #grid-flex .grid-item img {
+        height: auto;
+        width: 90%;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+
+    #grid-floats {
+        width: 100%;
+        overflow: hidden;    
+    }
+    #grid-floats .grid-item{
+        display: grid;
+        border: 1px solid rgb(2, 17, 65);
+        width: 29%;
+        float: left;
+        margin: 2%;
+        height: 560px;
+    }
+    #grid-floats .grid-item:nth-child(-n+2){
+        display: grid;
+        border: 1px solid rgb(2, 17, 65);
+        width: 46%;
+        float: left;
+        margin: 2%;
+        text-align: justify;
+        height: 560px;
+        animation-name: mykeyframe;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    
+    #grid-floats img {            
+        margin: auto;
+        width: 90%;
+    }
+
+    /*
+    li:nth-child(1) img {
+        width: 100%;
+    }
+    
+    li:nth-child(1) {
+        clear: both;
+        border: 2px solid blue;
+        float: left;
+        width: 98%;
+        clear: both;
+    }
+    */
+    
+    h1, h2, h3 {
+        text-align: center;
+        font-weight: bold;   
+        padding-top: 10px;
+    }
+    
+    h1 {
+        font-size: 3.25rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 0.8em;
+        padding: 5px 10px;
+    }
+    section:nth-child(2) {
+        clear: both;
+    }
+    
+    
+    
+    #grid-flex{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    #grid-flex .grid-item{
+        margin: 2%;
+        height: auto;
+        border: 1px solid rgb(2, 17, 65);
+        width: 29%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #grid-flex .grid-item:nth-child(-n+2) {
+        width: 46%;
+        animation-name: mykeyframe;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    #grid-flex .grid-item img {
+        height: auto;
+        width: 90%;
+        padding: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    #grid-floats {
+        width: 100%;
+        overflow: hidden;    
+    }
+    #grid-floats .grid-item{
+        display: grid;
+        border: 1px solid rgb(2, 17, 65);
+        width: 19%;
+        float: left;
+        margin: 2%;
+        height: 620px;
+    }
+    #grid-floats .grid-item:nth-child(1){
+        display: grid;
+        border: 1px solid rgb(2, 17, 65);
+        width: 42%;
+        float: left;
+        margin: 2%;    
+        height: 620px;
+        animation-name: mykeyframe;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    
+    #grid-floats img {
+            
+        margin: auto;
+        width: 90%;
+    }
+
+    /*
+    li:nth-child(1) img {
+        width: 100%;
+    }
+    
+    li:nth-child(1) {
+        clear: both;
+        border: 2px solid blue;
+        float: left;
+        width: 98%;
+        clear: both;
+    }
+    */
+    
+    
+    h1, h2, h3 {
+        text-align: center;
+        font-weight: bold;
+        padding: 5px 5px;  
+    }
+    
+    h1 {
+        font-size: 4rem;
+        
+    }
+    h2 {
+        font-size: 3rem;
+        
+    }
+    h3 {
+        font-size: 1.75rem;
+        
+    }
+    p {
+        font-size: 0.95rem;
+        padding: 5px 10px;
+    }
+    
+    section:nth-child(2) {
+        clear: both;
+    }
+    
+    
+    
+    #grid-flex{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    #grid-flex .grid-item{
+        margin: 2%;
+        height: auto;
+        border: 1px solid rgb(2, 17, 65);
+        width: 19%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    #grid-flex .grid-item:nth-child(1) {
+        width: 42%;
+        animation-name: mykeyframe;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    #grid-flex .grid-item img {
+        height: auto;
+        width: 90%;
+        padding: 5px;
+    }
+}
