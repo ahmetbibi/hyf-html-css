@@ -327,6 +327,10 @@ a.white {
     line-height: 1.375em;
 }
 
+.p-line-heights {
+    line-height: 2.7rem;
+}
+
 @media only screen and (min-width: 1024px) {
 
     h3 {
@@ -400,7 +404,7 @@ a.white {
 
     .news-articles-class {
         padding: 0 0 0 1%;
-        min-height: 550px;
+        height: 550px;
     }
 
     /*Contacts*/
@@ -423,31 +427,26 @@ a.white {
         font-size: 2rem; 
         color:#006C9A; 
         font-weight:bold; 
-        line-height: 2.7rem;
     }
 
     #link1 p:nth-child(2) {
         font-size: 2rem; 
-        line-height: 2.7rem;
     }
 
     #link1 p:nth-child(3) {
         font-size: 3rem; 
         color:#006C9A; 
         font-weight:bold; 
-        line-height: 2.7rem;
     }
 
     #link2 p:nth-child(1) {
         font-size: 1.85rem; 
-        line-height: 2.7rem;
     }
 
     #link2 p:nth-child(2) {
         font-size: 2rem; 
         color:#a90061; 
         font-weight:bold; 
-        line-height: 2.7rem;
         padding-top: 30px;
     }
 
@@ -523,7 +522,7 @@ a.white {
 
     .news-articles-class {
         padding: 0 0 0 1%;
-        min-height: 950px;
+        height: 570px;
     }
 
     #contacts {        
@@ -548,31 +547,26 @@ a.white {
         font-size: 1.8rem; 
         color:#006C9A; 
         font-weight:bold; 
-        line-height: 2.7rem;
     }
 
     #link1 p:nth-child(2) {
         font-size: 1.8rem; 
-        line-height: 2.7rem;
     }
 
     #link1 p:nth-child(3) {
         font-size: 2.8rem; 
         color:#006C9A; 
         font-weight:bold; 
-        line-height: 2.7rem;
     }
 
     #link2 p:nth-child(1) {
         font-size: 1.65rem; 
-        line-height: 2.7rem;
     }
 
     #link2 p:nth-child(2) {
         font-size: 1.8rem; 
         color:#a90061; 
         font-weight:bold; 
-        line-height: 2.7rem;
         padding-top: 30px;
     }
 
@@ -654,7 +648,7 @@ a.white {
 
     .news-articles-class {
         padding: 0 0 0 1%;
-        min-height: 850px;
+        height: 880px;
     }
 
     #contacts {        
@@ -679,31 +673,26 @@ a.white {
         font-size: 1.5rem; 
         color:#006C9A; 
         font-weight:bold; 
-        line-height: 2.7rem;
     }
 
     #link1 p:nth-child(2) {
         font-size: 1.5rem; 
-        line-height: 2.7rem;
     }
 
     #link1 p:nth-child(3) {
         font-size: 2rem; 
         color:#006C9A; 
         font-weight:bold; 
-        line-height: 2.7rem;
     }
 
     #link2 p:nth-child(1) {
         font-size: 1.35rem; 
-        line-height: 2.7rem;
     }
 
     #link2 p:nth-child(2) {
         font-size: 1.5rem; 
         color:#a90061; 
         font-weight:bold; 
-        line-height: 2.7rem;
         padding-top: 30px;
     }
 
@@ -784,7 +773,7 @@ a.white {
 
     .news-articles-class {
         padding: 0 0 0 1%;
-        height: 1600px;
+        height: 1300px;
     }
 
     #contacts {        
@@ -806,31 +795,26 @@ a.white {
         font-size: 1.5rem; 
         color:#006C9A; 
         font-weight:bold; 
-        line-height: 2.7rem;
     }
 
     #link1 p:nth-child(2) {
         font-size: 1.5rem; 
-        line-height: 2.7rem;
     }
 
     #link1 p:nth-child(3) {
         font-size: 2rem; 
         color:#006C9A; 
         font-weight:bold; 
-        line-height: 2.7rem;
     }
 
     #link2 p:nth-child(1) {
         font-size: 1.35rem; 
-        line-height: 2.7rem;
     }
 
     #link2 p:nth-child(2) {
         font-size: 1.5rem; 
         color:#a90061; 
         font-weight:bold; 
-        line-height: 2.7rem;
         padding-top: 30px;
     }
 
